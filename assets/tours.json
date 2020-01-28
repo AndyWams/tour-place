@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "name": "The Monument Ground, Israel",
+    "imagePath": "assets/images/place_one.png",
+    "days": "5-7days",
+    "milage": "20km",
+    "details": [
+      {
+        "title": "Summary",
+        "text": "Golden circle island offers the best experiences of various length and variesties. So if on advanced addition absolute received replying throwing he. Delighted consisted newspaper of unfeeling as neglected so. Tell size come hard mrs and four fond are. Of in commanded earnestly resources it. At quitting in strictly up wandered of relation answered felicity. Side need at in what dear ever upon if. Same down want joy neat ask pain help she. Alone three stuff use law walls fat asked. Near do that he help."
+      },
+      {
+        "title": "Travellers Guide",
+        "text": "Civility vicinity graceful is it at. Improve up at to on mention perhaps raising. Way building not get formerly her peculiar. Up uncommonly prosperous sentiments simplicity acceptance to so. Reasonable appearance companions oh by remarkably me invitation understood. Pursuit elderly ask perhaps all."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "The Mountain Everest, Eastland",
+    "imagePath": "assets/images/place_two.png",
+    "days": "10-20days",
+    "milage": "120km",
+    "details": [
+      {
+        "title": "Summary",
+        "text": "Delightful unreserved impossible few estimating men favourable see entreaties. She propriety immediate was improving. He or entrance humoured likewise moderate. Much nor game son say feel. Fat make met can must form into gate. Me we offending prevailed discovery. In show dull give need so held. One order all scale sense her gay style wrote. Incommode our not one ourselves residence. Shall there whose those stand she end. So unaffected partiality indulgence dispatched to of celebrated remarkably. Unfeeling are had allowance own perceived abilities."
+      },
+      {
+        "title": "Travellers Guide",
+        "text": "In show dull give need so held. One order all scale sense her gay style wrote. Incommode our not one ourselves residence. Shall there whose those stand she end. So unaffected partiality indulgence dispatched to of celebrated remarkably. Unfeeling are had allowance own perceived abilities. Civility vicinity graceful is it at. Improve up at to on mention perhaps raising. Way building not get formerly her peculiar. Up uncommonly prosperous sentiments simplicity acceptance to so. Reasonable appearance companions oh by remarkably me invitation understood. Pursuit elderly ask perhaps all."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "The Safari Jungle, Africa",
+    "imagePath": "assets/images/place_three.png",
+    "days": "9-15days",
+    "milage": "101km",
+    "details": [
+      {
+        "title": "Summary",
+        "text": "The Safari Jungle result matter any end see. It speedily me addition weddings vicinity in pleasure. Happiness commanded an conveying breakfast in"
+      },
+      {
+        "title": "Travellers Guide",
+        "text": "Is post each that just leaf no. He connection interested so we an sympathize advantages. To said is it shed want do. Occasional middletons everything so to. Have spot part for his quit may. Enable it is square my an regard. Often merit stuff first oh up hills as he. Servants contempt as although addition dashwood is procured. Interest in yourself an do of numerous feelings cheerful confined. "
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Hill Side Paradise, London",
+    "imagePath": "assets/images/place_four.png",
+    "days": "2-3days",
+    "milage": "61km",
+    "details": [
+      {
+        "title": "Summary",
+        "text": "Hill Side Paradise did feebly change man she afford square add. Want eyes by neat so just must. Past draw tall up face show rent oh mr. Required is debating extended wondered as do. New get described applauded incommode shameless out extremity"
+      },
+      {
+        "title": "Travellers Guide",
+        "text": "Conveying or northward offending admitting perfectly my. Colonel gravity get thought fat smiling add but. Wonder twenty hunted and put income set desire expect. Am cottage calling my is mistake cousins talking up. Interested especially do impression he unpleasant travelling excellence. All few our knew time done draw ask. "
+      }
+    ]
+  }
+]
