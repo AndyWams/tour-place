@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tour/models/tour_model.dart';
 import 'package:tour/services/tour_service.dart';
 import 'package:tour/styles.dart';
+import 'package:tour/widgets/nav_icons.dart';
 
 class PlaceDetails extends StatelessWidget {
   final int tourID;
@@ -48,15 +49,51 @@ class TourImage extends StatelessWidget {
   final String imagePath;
   TourImage(this.imagePath);
   Widget build(contex) {
-    return Container(
-      constraints: BoxConstraints.expand(height: 250.0),
-      decoration: roundedBorder,
-      child: ClipRRect(
-          borderRadius: curvedBorderRadius,
-          child: Image.asset(
-            imagePath,
-            fit: BoxFit.fill,
-          )),
+    return Stack(
+      overflow: Overflow.visible,
+      children: <Widget>[
+        Container(
+          constraints: BoxConstraints.expand(height: 250.0),
+          decoration: roundedBorder,
+          child: ClipRRect(
+            borderRadius: curvedBorderRadius,
+            child: Image.asset(
+              imagePath,
+              fit: BoxFit.fill,
+            ),
+          ),
+        ),
+        Positioned(
+          bottom: -(25.0),
+          right: 40,
+          child: Align(
+            alignment: Alignment.bottomRight,
+            child: Container(
+                width: 50.0,
+                height: 55.0,
+                decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey[200],
+                      blurRadius: 3, // soften the shadow
+                      spreadRadius: 0.5, //extend the shadow
+                      offset: Offset(
+                        0.0, // Move to right 10  horizontally
+                        4.0, // Move to bottom 10 Vertically
+                      ),
+                    )
+                  ],
+                  borderRadius: BorderRadius.all(Radius.circular(10.0)),
+                  color: Colors.white,
+                ),
+                child: IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.favorite),
+                  color: Colors.red[400],
+                )),
+          ),
+        )
+      ],
     );
   }
 }
@@ -68,7 +105,7 @@ class TourDistanceWithDays extends StatelessWidget {
   TourDistanceWithDays(this._days, this._mile);
   Widget build(context) {
     return Container(
-      padding: EdgeInsets.fromLTRB(40, 12, 40, 0),
+      padding: EdgeInsets.fromLTRB(40, 25, 40, 0),
       child: Row(
         children: <Widget>[
           iconDecorationGrey(Icons.calendar_today),
@@ -97,7 +134,7 @@ class TourTextSection extends StatelessWidget {
   @override
   Widget build(context) {
     return Container(
-        padding: EdgeInsets.fromLTRB(40, 30, 40, 20),
+        padding: EdgeInsets.fromLTRB(40, 25, 40, 20),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,

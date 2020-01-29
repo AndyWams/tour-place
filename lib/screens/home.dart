@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tour/main.dart';
+import 'package:tour/models/tour_model.dart';
 import 'package:tour/services/tour_service.dart';
 import 'package:tour/widgets/bottom_nav.dart';
 import 'package:tour/widgets/hero_home.dart';
@@ -105,11 +106,13 @@ class Places extends StatelessWidget {
                 style: customSpan,
               );
             }
+            List<Tour> totalTours = snapshot.data ?? [];
             return ListView.builder(
               scrollDirection: Axis.horizontal,
-              itemCount: 4,
+              itemCount: totalTours.length,
               itemBuilder: (context, index) {
                 var mydataId = snapshot.data[index].id;
+
                 return GestureDetector(
                   onTap: () {
                     _onTourTap(context, mydataId);

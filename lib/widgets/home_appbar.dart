@@ -29,7 +29,7 @@ class HomeAppbar extends StatelessWidget with PreferredSizeWidget {
     return IconButton(
       alignment: Alignment.centerLeft,
       padding: EdgeInsets.only(left: 0.0),
-      icon: const Icon(
+      icon: Icon(
         Icons.short_text,
         color: Colors.black,
         size: 35.0,

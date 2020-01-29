@@ -10,8 +10,8 @@ Future<dynamic> loadTourAsset() async {
 
 //Fetch all tours and render them on a listview
 Future fetchTours() async {
-  dynamic jsonTour = await loadTourAsset();
-  var tourList = TourList.fromJson(json.decode(jsonTour));
+  dynamic jsonResponse = await loadTourAsset();
+  var tourList = TourList.fromJson(json.decode(jsonResponse));
   var records = tourList.places.toList();
   return records;
 }
