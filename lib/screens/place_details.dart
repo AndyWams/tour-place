@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tour/models/tour_model.dart';
 import 'package:tour/services/tour_service.dart';
 import 'package:tour/styles.dart';
-import 'package:tour/widgets/nav_icons.dart';
+// import 'package:tour/widgets/nav_icons.dart';
 
 class PlaceDetails extends StatelessWidget {
   final int tourID;
@@ -34,7 +34,9 @@ class PlaceDetails extends StatelessWidget {
                       ),
                     )));
           } else
-            return CircularProgressIndicator();
+            return Center(
+              child: CircularProgressIndicator(),
+            );
         });
   }
 
